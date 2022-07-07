@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: o;
+    color: whitesmoke;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/flutterlogo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.top-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+
+.top-container div{
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.right-side{
+    text-align: center;
+    background-color: orangered;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.left-side div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side div a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+.middle-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+}
+
+.middle-container div{
+align-items: center;
+margin: 10px;
+width: 100%;
+padding: 10px;
+}
+.sub{
+        display: flex;
+        justify-content: space-between;
+}
