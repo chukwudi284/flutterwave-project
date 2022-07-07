@@ -9,12 +9,23 @@ section{
 }
 
 .Article{
-    width: 500px;
+    width: 50%;
     margin: auto;
-    text-align: center;
 }
 
-.main-article{
+.Article img{
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+}
+
+
+
+.read-more{
+    margin: 0px 150px;
+}
+
+.middle-container{
     display: flex;
     width: 80%;
     margin: auto;
@@ -22,14 +33,13 @@ section{
     align-content: center;
 }
 
-.main-article div{
+.middle-container div{
 align-items: center;
 margin: 10px;
 width: 100%;
 padding: 10px;
 }
-
 .sub{
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
 }
